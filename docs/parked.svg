@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-label="A Claude Code terminal with the Parked pane on the right. The pane shows three sticky notes.">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; fill: #c0caf5; }
+    .dim { fill: #6b7394; }
+    .bold { font-weight: 700; }
+    .ok { fill: #9ece6a; }
+    .chip { font-size: 12px; }
+    .label { font-size: 11px; letter-spacing: 1px; }
+  </style>
+  <rect width="900" height="400" rx="10" fill="#1a1b26"/>
+  <path d="M0 10a10 10 0 0 1 10-10h880a10 10 0 0 1 10 10v26H0z" fill="#24283b"/>
+  <circle cx="20" cy="18" r="6" fill="#f7768e"/>
+  <circle cx="40" cy="18" r="6" fill="#e0af68"/>
+  <circle cx="60" cy="18" r="6" fill="#9ece6a"/>
+  <text x="450" y="23" text-anchor="middle" class="dim">claude</text>
+
+  <text x="24" y="70"><tspan class="dim">&gt;</tspan> /park</text>
+  <text x="24" y="92"><tspan class="ok">●</tspan> Parked: Fix the flaky login test</text>
+  <text x="24" y="126"><tspan class="dim">&gt;</tspan> /note Write the release notes</text>
+  <text x="24" y="148"><tspan class="ok">●</tspan> Sticky added: Write the release notes</text>
+  <text x="24" y="182"><tspan class="dim">&gt;</tspan> Now find why the search page is slow.</text>
+  <text x="24" y="204"><tspan class="ok">●</tspan> The query reads the full table. An index on</text>
+  <text x="40" y="224">created_at removes the scan. I can add it now.</text>
+  <rect x="24" y="330" width="524" height="40" rx="6" fill="none" stroke="#3b4261"/>
+  <text x="38" y="355"><tspan class="dim">&gt;</tspan></text>
+  <rect x="54" y="343" width="8" height="16" fill="#c0caf5"/>
+
+  <line x1="560" y1="48" x2="560" y2="388" stroke="#3b4261"/>
+  <text x="572" y="62" class="bold">Parked</text>
+
+  <rect x="572" y="76" width="304" height="172" rx="6" fill="none" stroke="#3b4261"/>
+  <text x="588" y="98" class="bold">Fix the flaky login test</text>
+  <text x="588" y="118" class="dim label">STOPPED</text>
+  <text x="588" y="138">• The test fails 1 time in 10</text>
+  <text x="588" y="158">• Cause: the session cookie is late</text>
+  <text x="588" y="178" class="dim label">NEXT</text>
+  <text x="588" y="198">• Wait for the cookie, then run CI</text>
+  <text x="588" y="230" class="dim chip">12m ago</text>
+  <rect x="652" y="215" width="58" height="22" rx="4" fill="#2a2f45"/>
+  <text x="681" y="230" text-anchor="middle" class="chip">▾ hide</text>
+  <rect x="716" y="215" width="58" height="22" rx="4" fill="#2a2f45"/>
+  <text x="745" y="230" text-anchor="middle" class="chip">resume</text>
+  <rect x="780" y="215" width="44" height="22" rx="4" fill="#2a2f45"/>
+  <text x="802" y="230" text-anchor="middle" class="chip">done</text>
+
+  <rect x="572" y="256" width="304" height="56" rx="6" fill="none" stroke="#3b4261"/>
+  <text x="588" y="278" class="bold">Upgrade the date library</text>
+  <text x="588" y="300" class="dim chip">2h ago</text>
+  <rect x="652" y="285" width="58" height="22" rx="4" fill="#2a2f45"/>
+  <text x="681" y="300" text-anchor="middle" class="chip">▸ show</text>
+  <rect x="716" y="285" width="58" height="22" rx="4" fill="#2a2f45"/>
+  <text x="745" y="300" text-anchor="middle" class="chip">resume</text>
+  <rect x="780" y="285" width="44" height="22" rx="4" fill="#2a2f45"/>
+  <text x="802" y="300" text-anchor="middle" class="chip">done</text>
+
+  <rect x="572" y="320" width="304" height="56" rx="6" fill="none" stroke="#3b4261"/>
+  <text x="588" y="342" class="bold">Write the release notes</text>
+  <text x="588" y="364" class="dim chip">0m ago</text>
+  <rect x="652" y="349" width="58" height="22" rx="4" fill="#2a2f45"/>
+  <text x="681" y="364" text-anchor="middle" class="chip">resume</text>
+  <rect x="716" y="349" width="44" height="22" rx="4" fill="#2a2f45"/>
+  <text x="738" y="364" text-anchor="middle" class="chip">done</text>
+</svg>

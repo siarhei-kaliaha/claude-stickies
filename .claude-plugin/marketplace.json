@@ -1,0 +1,5 @@
+{
+  "name": "claude-stickies",
+  "owner": { "name": "Siarhei Kaliaha" },
+  "plugins": [{ "name": "stickies", "source": "./" }]
+}

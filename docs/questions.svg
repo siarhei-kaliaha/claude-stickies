@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="482" viewBox="0 0 460 482" role="img" aria-label="The Open questions pane. It shows three questions with answer buttons. One question has an answer.">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; fill: #c0caf5; }
+    .dim { fill: #6b7394; }
+    .bold { font-weight: 700; }
+    .ok { fill: #9ece6a; }
+    .chip { font-size: 12px; }
+    .primary { fill: #1a1b26; font-weight: 700; }
+  </style>
+  <rect width="460" height="482" rx="10" fill="#1a1b26"/>
+  <path d="M0 10a10 10 0 0 1 10-10h440a10 10 0 0 1 10 10v26H0z" fill="#24283b"/>
+  <circle cx="20" cy="18" r="6" fill="#f7768e"/>
+  <circle cx="40" cy="18" r="6" fill="#e0af68"/>
+  <circle cx="60" cy="18" r="6" fill="#9ece6a"/>
+  <text x="16" y="62" class="bold">Open questions</text>
+
+  <rect x="16" y="76" width="428" height="182" rx="6" fill="none" stroke="#3b4261"/>
+  <text x="32" y="98" class="bold">▾ 1. Which store for the cache?</text>
+  <text x="32" y="120">• Redis is in the stack already.</text>
+  <text x="32" y="140">• SQLite needs no new service.</text>
+  <rect x="32" y="152" width="60" height="22" rx="4" fill="#7aa2f7"/>
+  <text x="62" y="167" text-anchor="middle" class="chip primary">Redis</text>
+  <rect x="32" y="178" width="66" height="22" rx="4" fill="#2a2f45"/>
+  <text x="65" y="193" text-anchor="middle" class="chip">SQLite</text>
+  <rect x="32" y="204" width="80" height="22" rx="4" fill="#2a2f45"/>
+  <text x="72" y="219" text-anchor="middle" class="chip">No cache</text>
+  <text x="32" y="246" class="dim chip">3m ago</text>
+  <rect x="90" y="231" width="50" height="22" rx="4" fill="#2a2f45"/>
+  <text x="115" y="246" text-anchor="middle" class="chip">other</text>
+  <rect x="146" y="231" width="44" height="22" rx="4" fill="#2a2f45"/>
+  <text x="168" y="246" text-anchor="middle" class="chip">done</text>
+
+  <rect x="16" y="266" width="428" height="76" rx="6" fill="none" stroke="#3b4261"/>
+  <text x="32" y="288" class="bold dim">▸ 2. Delete the old endpoint?</text>
+  <text x="32" y="308" class="ok">→ Keep it for one release</text>
+  <text x="32" y="330" class="dim chip">3m ago</text>
+  <rect x="90" y="315" width="50" height="22" rx="4" fill="#2a2f45"/>
+  <text x="115" y="330" text-anchor="middle" class="chip">other</text>
+  <rect x="146" y="315" width="44" height="22" rx="4" fill="#2a2f45"/>
+  <text x="168" y="330" text-anchor="middle" class="chip">done</text>
+
+  <rect x="16" y="350" width="428" height="112" rx="6" fill="none" stroke="#3b4261"/>
+  <text x="32" y="372" class="bold">▸ 3. Squash the commits?</text>
+  <rect x="32" y="382" width="44" height="22" rx="4" fill="#7aa2f7"/>
+  <text x="54" y="397" text-anchor="middle" class="chip primary">Yes</text>
+  <rect x="32" y="408" width="38" height="22" rx="4" fill="#2a2f45"/>
+  <text x="51" y="423" text-anchor="middle" class="chip">No</text>
+  <text x="32" y="450" class="dim chip">3m ago</text>
+  <rect x="90" y="435" width="50" height="22" rx="4" fill="#2a2f45"/>
+  <text x="115" y="450" text-anchor="middle" class="chip">other</text>
+  <rect x="146" y="435" width="44" height="22" rx="4" fill="#2a2f45"/>
+  <text x="168" y="450" text-anchor="middle" class="chip">done</text>
+</svg>

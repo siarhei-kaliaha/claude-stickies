@@ -1,0 +1,11 @@
+{
+  "name": "stickies",
+  "version": "0.1.0",
+  "description": "Two side panes for Claude Code: sticky notes for parked work, and the open questions that Claude waits for.",
+  "author": { "name": "Siarhei Kaliaha" },
+  "homepage": "https://github.com/siarhei-kaliaha/claude-stickies",
+  "repository": "https://github.com/siarhei-kaliaha/claude-stickies",
+  "license": "MIT",
+  "keywords": ["pane", "notes", "questions", "context", "function-hooks"],
+  "types": "./types/index.d.ts"
+}
